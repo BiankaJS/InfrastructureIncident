@@ -113,7 +113,7 @@ resource "azurerm_linux_virtual_machine" "IN-VM" {
   }
   admin_ssh_key {
     username   = var.user
-    public_key = file("~/.ssh/${var.ssh_key_path}.pub")
+    public_key = file("${var.ssh_key_path}.pub")
   }
 
   provisioner "file" {

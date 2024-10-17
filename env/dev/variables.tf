@@ -35,11 +35,11 @@ variable "MONGO_URL" {
 }
 
 variable "SSH_PRIVATE_KEY" {
-  type = string
+  type    = string
   default = ""
 }
 
 variable "SSH_PUBLIC_KEY" {
-  type = string
+  type    = string
   default = ""
 }

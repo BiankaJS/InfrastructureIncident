@@ -33,3 +33,13 @@ variable "PORT" {
 variable "MONGO_URL" {
   type = string
 }
+
+variable "SSH_PRIVATE_KEY" {
+  type = string
+  default = ""
+}
+
+variable "SSH_PUBLIC_KEY" {
+  type = string
+  default = ""
+}

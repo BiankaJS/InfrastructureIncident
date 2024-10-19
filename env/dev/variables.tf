@@ -46,4 +46,5 @@ variable "SSH_PUBLIC_KEY" {
 
 variable "EMAIL_USER" {
   type = string
+  default = "aknaib.13js@gmail.com"
 }

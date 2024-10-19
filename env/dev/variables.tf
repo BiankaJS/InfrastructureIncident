@@ -43,3 +43,7 @@ variable "SSH_PUBLIC_KEY" {
   type    = string
   default = ""
 }
+
+variable "EMAIL_USER" {
+  type = string
+}
